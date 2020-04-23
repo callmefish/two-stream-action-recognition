@@ -23,9 +23,10 @@ GPUs: 1 x NVIDIA Tesla K80
  	```
  	git clone https://github.com/callmefish/two-stream-action-recognition.git
  	```
- 2. Download dataset and unzip them:\
+ 2. Download dataset and unzip them, suggest use 475 dataset:\
 	[rgb_497](https://storage.cloud.google.com/ucf101_for_rar/video_data_497.zip?authuser=1)(gs://ucf101_for_rar/video_data_497.zip): A dataset of RGB frames extracted from 497 action videos\
-  [rgb_497_sim](https://storage.cloud.google.com/ucf101_for_rar/video_data_497_sim.zip?authuser=1)(gs://ucf101_for_rar/video_data_497_sim.zip): A dataset of RGB frames extracted from 497 action videos and after simplified\
+        [rgb_497_sim](https://storage.cloud.google.com/ucf101_for_rar/video_data_497_sim.zip?authuser=1)(gs://ucf101_for_rar/video_data_497_sim.zip): A dataset of RGB frames extracted from 497 action videos and after simplified\
+  	[rgb_475](https://storage.cloud.google.com/ucf101_for_rar/video_data_475.zip?authuser=1)(gs://ucf101_for_rar/video_data_475.zip): A dataset of RGB frames extracted from 475 action videos\
 	[opt_475](https://storage.cloud.google.com/ucf101_for_rar/opt_475.zip?authuser=1)(gs://ucf101_for_rar/opt_475.zip): A dataset of TVL1 optical flow frames extracted from 475 action videos.\
 	[rgb_575](https://storage.cloud.google.com/ucf101_for_rar/video_data_575.zip?authuser=1) (gs://ucf101_for_rar/video_data_575.zip)(optional): A dataset of RGB frames extracted from 475 action videos.\
 	[opt_575](https://storage.cloud.google.com/ucf101_for_rar/opt_575.zip?authuser=1) (gs://ucf101_for_rar/opt_575.zip) (optional): A dataset of TVL1 optical flow frames extracted from 475 action videos.
